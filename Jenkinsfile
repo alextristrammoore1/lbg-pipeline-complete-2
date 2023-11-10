@@ -1,6 +1,6 @@
 pipeline{
  environment {
-        dockerUserName="dockerhub_id"
+        dockerUserName="docker_hub_id"
         credentialsIdGCP = "exec-cohort-9"
         namespace = "lbg-13"
         // e.g. lbg-1 for learner1, lbg-2 for learner2
